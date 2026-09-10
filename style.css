@@ -1,0 +1,87 @@
+html {
+    background: #fff;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    max-width: 1600px;
+
+    background: #fff;
+    color: #222;
+
+    font-family: "IBM Plex Mono", "SFMono-Regular", Consolas,
+                 "Liberation Mono", Menlo, monospace;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}
+
+p {
+    margin: 0 0 1.25rem;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+a {
+    color: #1558b0;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color 0.15s ease, text-decoration-thickness 0.15s ease;
+}
+
+a:hover {
+    color: #0b3d7a;
+    text-decoration-thickness: 2px;
+}
+
+a:visited {
+    /*color: #604090;*/
+    color: #1558b0
+}
+
+a:focus-visible {
+    outline: 2px solid #1558b0;
+    outline-offset: 3px;
+    border-radius: 2px;
+}
+
+a:active {
+    color: #8b1e1e;
+}
+
+ul,ol {
+    margin: 0 0 1.25rem;
+    padding-left: 2rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+
+.text-image {
+  display: flex;
+  align-items: stretch;
+}
